@@ -25,6 +25,10 @@
   line-height: 1.5;
 }
 
+.articleText {
+  margin: 1rem 0;
+}
+
 .borderCircle {
   border-radius: 9999px;
 }
