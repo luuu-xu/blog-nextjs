@@ -51,6 +51,12 @@
   margin: 0 0 1.25rem;
 }
 
+.commentListItem {
+  margin: 0 0 1.25rem;
+  border-bottom: black 1px solid;
+  padding: 10px;
+}
+
 .lightText {
   color: #666;
 }
