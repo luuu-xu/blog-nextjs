@@ -32,15 +32,15 @@ The following dependencies are used in this project:
 The website includes the following pages:
 
 - /: The homepage, which displays all blog posts.
-- /posts/:id: Displays a specific blog post by ID and its comments.
+- /posts/:postId: Displays a specific blog post by ID and its comments.
 
 ## API Endpoints
 The website uses the following API endpoints:
 
 - GET /api/posts: Get all blog posts.
-- GET /api/posts/:id: Get a specific blog post by ID.
-- GET /api/posts/:id/comments: Get all comments for a specific blog post.
-- POST /api/posts/:id/comments: Create a new comment for a specific blog post.
+- GET /api/posts/:postId: Get a specific blog post by ID.
+- GET /api/posts/:postId/comments: Get all comments for a specific blog post.
+- POST /api/posts/:postId/comments: Create a new comment for a specific blog post.
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
