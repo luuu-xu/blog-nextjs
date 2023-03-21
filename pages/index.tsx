@@ -33,10 +33,6 @@ export default function Home({ post_list } : { post_list: post_list_props }) {
       <section className={utilStyles.headingMd}>
         <p>Hi! I'm self-learning full-stack JavaScript web development with The Odin Project now. It has been a really fun and enjoying process.</p>
         <p>You can find me on <a href="https://github.com/luuu-xu">Github</a>.</p>
-        {/* <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p> */}
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Published Blog</h2>
